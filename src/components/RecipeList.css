@@ -1,0 +1,15 @@
+.recipe-list {
+  padding: 20px;
+}
+
+.recipe-list h2 {
+  text-align: center;
+  color: #001f3f; /* Gece Mavisi */
+  margin-bottom: 20px;
+}
+
+.recipe-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

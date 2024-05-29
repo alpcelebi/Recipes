@@ -1,0 +1,34 @@
+.recipe-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  width: 220px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.recipe-card h2 {
+  color: #001f3f; /* Gece Mavisi */
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.recipe-card a {
+  text-decoration: none;
+  color: #0074d9;
+  display: block;
+  margin-bottom: 10px;
+}
